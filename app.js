@@ -20,4 +20,4 @@ app.use('/', newsRouter)
 app.use('/article', newsRouter)
 
 
-app.listen(PORT, () => console.log(`App is running on port ${PORT}`))
+app.listen(PORT, () => console.log(`News-Magazine is running on port ${PORT} 🎈😍🎉`))

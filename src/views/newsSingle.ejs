@@ -10,16 +10,14 @@
 <body>
     <header class="header">
         <div class="header__logo">Node.js News</div>
+        <%- include('./partials/search.ejs') %>
 
-        <input type="text" name="search" id="" placeholder="search news">
     </header>
 
     <div class="wrapper">
         <div class="news-single">
-          
-                    <h2><%- article.title.rendered %></h2>
-                    <p><%- article.content.rendered %></p>
-
+            <h2><%- article.title.rendered %></h2>
+            <p><%- article.content.rendered %></p>
         </div>
     </div>
 
